@@ -10,7 +10,7 @@ import { PhotoService } from '../services/photo.service'
 export class Tab3Page {
   showPhoto: boolean = true;
   constructor(public photoService: PhotoService) {}
-
+  // Literal 2 
   async ngOnInit() {
     await this.photoService.loadSaved();
     this.showPhoto = !this.showPhoto
