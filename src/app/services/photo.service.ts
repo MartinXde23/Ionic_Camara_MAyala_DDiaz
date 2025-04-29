@@ -83,7 +83,7 @@ export class PhotoService {
       value: JSON.stringify(this.photos),
     });
   }
-
+  //Funcion literal 4
   public async addNewToGallery50() {
     const capturedPhoto = await Camera.getPhoto({
       resultType: CameraResultType.Uri,
